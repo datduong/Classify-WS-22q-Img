@@ -1,4 +1,4 @@
-## Classifying face images as WS, 22q11DS, other conditions, unaffected. 
+## Classify face images as WS, 22q11DS, other conditions, and unaffected. 
 
 **Paper coming soon ...**
 
