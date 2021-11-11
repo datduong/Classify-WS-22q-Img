@@ -40,7 +40,7 @@ parser.add_argument('--col_label_name', type=str, default=None) #
 parser.add_argument('--labels', type=str, default=None) # 
 parser.add_argument('--enet_type', type=str, default='tf_efficientnet_b4_ns')
 parser.add_argument('--positive_np', action='store_true', default=False) # ! 
-parser.add_argument('--scale_np_01', action='store_true', default=False) # ! 
+parser.add_argument('--scale_np_01', action='store_true', default=False) # ! scale down images as 0-1 range instead of 0-255
 
 args = parser.parse_args()
 args.disease_name = args.disease_name.split(',') # ! can pass in a list of ',' ??
@@ -224,7 +224,7 @@ for DISEASE in args.disease_name:
   if args.positive_np: 
     args.suffix = args.suffix + '_posnp'
   
-  foutname = DISEASE+'_emb_cosdist_'+str(args.num_permu)+args.suffix
+  foutname = DISEASE+'_emb_dist_'+str(args.num_permu)+args.suffix
 
   pickle.dump (rank_of_obs_test_stat,open(os.path.join(args.img_dir,foutname+'.pickle'),'wb'))
 
