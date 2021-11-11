@@ -1,10 +1,6 @@
 
 #!/bin/bash
 
-# sinteractive --time=2:00:00 --gres=gpu:p100:1 --mem=8g --cpus-per-task=6
-# sbatch --partition=gpu --time=12:00:00 --gres=gpu:p100:1 --mem=8g --cpus-per-task=8 
-
-
 source /data/$USER/conda/etc/profile.d/conda.sh
 conda activate py37
 
@@ -30,10 +26,6 @@ mixtype=M$mix_ratio'T0.6Ave'  # ! what is the mix ratio and the truncation for c
 full_fold=0
 
 suffix1=WS+22q11DS+Control+Normal+kimg10+target0.6+blankcenter
-
-# WS+22q11DS+Control+Normal+kimg10+target0.6 # 
-# suffix1=WS+22q11DS+Control+Normal+kimg10+target0.6+TransA
-# suffix1=WS+22q11DS+Control+Normal+kimg10+target0.6+DiscA
 
 suffix3='blankcenter+WS+22q11DS+Control+Normal+Whole+Soft' # train+WS+22q11DS+Control+Normal+Whole+Soft.csv
 
@@ -61,19 +53,3 @@ done
 cd $fout_path
 
 
-
-# j = """24762148
-# 24762231
-# 24762232
-# 24762233
-# 24762234
-# 24762388
-# 24762434
-# 24762435
-# 24762516
-# 24762517""".split()
-# import os 
-# for i in j: 
-#   os.system ('scancel '+i)
-
-  
