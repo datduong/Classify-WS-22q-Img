@@ -30,6 +30,9 @@ Training scripts are made and submitted to the server automatically using this p
 
 Example of training. 
 
+[![asciicast](https://asciinema.org/a/452370.svg)](https://asciinema.org/a/452370)
+
 
 Example of ensemble 5 fold cross-validation. 
+
 
