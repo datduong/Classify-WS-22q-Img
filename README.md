@@ -28,11 +28,12 @@ Fake images were created based on [our github](https://github.com/datduong/style
 Training scripts are made and submitted to the server automatically using this python script (you may not want to do this if your school server has restrictions). Please change folder path to your own machines. We trained 5 fold cross-validation, and then combine these 5 models into a single classifier. [Example scripts for the 1st fold are provided here](https://github.com/datduong/Classify-WS-22q-Img/tree/master/Experiment/ExampleScripts). Ensemble script to combine all models is here; you will need to change model name and folder path with respect to your machine. 
 
 
-Example of training. 
+Example of training. Please note, I'm using folder paths based on my own machines, [you will have to change the model paths](). 
 
 [![asciicast](https://asciinema.org/a/452370.svg)](https://asciinema.org/a/452370)
 
 
-Example of ensemble 5 fold cross-validation. 
+Example of ensemble 5 fold cross-validation. Please note, I'm using folder paths based on my own machines, you will have to change the model paths. 
 
+[![asciicast](https://asciinema.org/a/452373.svg)](https://asciinema.org/a/452373)
 
