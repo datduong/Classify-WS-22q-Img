@@ -2,7 +2,7 @@
 source /data/$USER/conda/etc/profile.d/conda.sh
 conda activate py37
 
-cd /data/duongdb/ClassifyFaceConditions/SeeAttribution
+cd /data/duongdb/DeployOnline/Classify-WS-22q-Img/SeeAttribution
 modeldir=/data/duongdb/WS22qOther_08102021/Classify/b4ns448wl10ss10lr3e-05dp0.2b64ntest1WS+22q11DS+Control+Normal+Whole+blankcenter/EvalTrainTest
 for condition_name in WS 22q11DS 
 do 
@@ -11,7 +11,7 @@ done
 
 # ! average all ATTRIBUTIONS INTO 1 SINGLE IMAGE FOR EACH DISEASE
 
-cd /data/duongdb/ClassifyFaceConditions/SeeAttribution
+cd /data/duongdb/DeployOnline/Classify-WS-22q-Img/SeeAttribution
 
 image_path=/data/duongdb/WS22qOther_08102021/Classify/b4ns448wl10ss10lr3e-05dp0.2b64ntest1WS+22q11DS+Control+Normal+Whole+blankcenter/EvalTrainTest/AverageAttr_Occlusion2
 
@@ -52,7 +52,7 @@ labels=LABELS
 
 num_permu=1000
 
-cd /data/duongdb/ClassifyFaceConditions/SeeAttribution
+cd /data/duongdb/DeployOnline/Classify-WS-22q-Img/SeeAttribution
 
 
 python3 TestHeatMapPermu.py --disease_name CONDITIONNAME --num_permu $num_permu --csv_input $csv_input --img_dir $img_dir --col_label_name $col_label_name --labels $labels --suffix _scale_np_01 --positive_np

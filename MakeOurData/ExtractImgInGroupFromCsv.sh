@@ -1,5 +1,5 @@
 
-cd /data/duongdb/ClassifyFaceConditions/MakeOurData
+cd /data/duongdb/DeployOnline/Classify-WS-22q-Img/MakeOurData
 
 maindir=/data/duongdb/WS22qOther_08102021
 

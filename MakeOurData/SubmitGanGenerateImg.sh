@@ -29,7 +29,7 @@ suffix1=WS+22q11DS+Control+Normal+kimg10+target0.6+blankcenter
 
 suffix3='blankcenter+WS+22q11DS+Control+Normal+Whole+Soft' # train+WS+22q11DS+Control+Normal+Whole+Soft.csv
 
-cd /data/duongdb/ClassifyFaceConditions/MakeOurData
+cd /data/duongdb/DeployOnline/Classify-WS-22q-Img/MakeOurData
 
 for fold in 0 1 2 3 4 # exclude valid fold, so GAN has to be adjusted for each fold 1 2 3 4
 do

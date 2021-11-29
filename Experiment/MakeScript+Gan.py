@@ -42,7 +42,7 @@ suffix2=M0.75T0.6AveWS+22q11DS+Control+Normal+kimg10+target0.6+blankcenter
 # ! skip using $weight in the name, because $weight has "comma" ??
 model_folder_name=b4ns$imagesize$imagetype'WlWEIGHTss'$schedulerscaler'lr'$learningrate'dp'$dropout'b'$batchsize'ntest'$ntest$suffix2 # ! '+Hard' 'fc'$NUMFC
 
-cd /data/duongdb/ClassifyFaceConditions
+cd /data/duongdb/DeployOnline/Classify-WS-22q-Img
 
 maindir=/data/duongdb/WS22qOther_08102021/Classify
 

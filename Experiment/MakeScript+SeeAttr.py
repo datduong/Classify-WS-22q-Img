@@ -43,7 +43,7 @@ logdir=$maindir/$model_folder_name
 
 oofdir=$maindir/$model_folder_name/EvalTrainTest # ! change if needed
 
-cd /data/duongdb/ClassifyFaceConditions
+cd /data/duongdb/DeployOnline/Classify-WS-22q-Img
 
 # ! look at pixels
 
