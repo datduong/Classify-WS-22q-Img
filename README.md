@@ -19,7 +19,7 @@ There are two types of classifier:
    - Real + age transformation images (e.g., a fake person ages over time)
    - Real + fake images of mixture of 2 diseases (e.g., a person with WS and 22q11DS)
 
-Fake images were created based on [our github]() forked from StyleGAN. The [fake images are stored here](), so that that you don't have to train StyleGAN.
+Fake images were created based on [our github](https://github.com/datduong/stylegan2-ada-Ws-22q) redesigned from StyleGAN. The [fake images are stored here](), so that that you don't have to train StyleGAN.
 
 Training scripts are made (and submitted to the server) automatically using this python script. Please change folder path to your own machines. We trained 5 fold cross-validation, and then combine these 5 models into a single classifier. [Example scripts for the 1st fold are provided here](). 
 
