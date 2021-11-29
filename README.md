@@ -9,7 +9,7 @@
 
 Images can be kept in the same folder; our [train.csv and test.csv]() are provided (you will need to change folder path based on your machine). 
 
-We trained our images with FairFace images (these auxiliary images are included and formatted, so you don't need to download/format them).
+We trained our images with [FairFace images](https://github.com/dchen236/FairFace) (these auxiliary images are included and formatted, so you don't need to download/format them).
 
 ## Train the classifier 
 
