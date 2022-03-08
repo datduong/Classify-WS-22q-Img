@@ -2,7 +2,7 @@
 
 **[Paper](https://www.medrxiv.org/content/10.1101/2021.12.09.21267472v1)**
 
-**Dataset coming soon ...**
+**[Dataset](https://doi.org/10.6084/m9.figshare.19324193.v1)**
 
 **Examples of individuals affected with [WS](https://en.wikipedia.org/wiki/Williams_syndrome) and [22q11DS](https://en.wikipedia.org/wiki/DiGeorge_syndrome).**
 
