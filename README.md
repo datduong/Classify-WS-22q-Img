@@ -1,8 +1,8 @@
 ## Classify face images as WS, 22q11DS, other conditions, and unaffected. 
 
-**[Paper](https://www.medrxiv.org/content/10.1101/2021.12.09.21267472v1)**
+**[Paper](https://www.frontiersin.org/articles/10.3389/fgene.2022.864092/full)**
 
-**[Dataset](https://doi.org/10.6084/m9.figshare.19324193.v1)** We make the versions of the publicly available images included in our analyses available for the purpose of reproducibility and research, with the assumption that these would not be used for purposes that would not be considered fair use. These data were compiled to produce a new, derivative work, which we offer as a whole. We cannot share the original images and related data with requestors, but have provided links to the URLs in the manuscript describing this work. We cannot guarantee that the URLs or images are accurate or up-to-date, and encourage interested parties to refer to the sources.
+**[Dataset](https://figshare.com/articles/figure/ws-22q11-and-related-syndromes-04122023/22596217)** We make the versions of the publicly available images included in our analyses available for the purpose of reproducibility and research, with the assumption that these would not be used for purposes that would not be considered fair use. These data were compiled to produce a new, derivative work, which we offer as a whole. We cannot share the original images and related data with requestors, but have provided links to the URLs in the manuscript describing this work. We cannot guarantee that the URLs or images are accurate or up-to-date, and encourage interested parties to refer to the sources.
 
 **Examples of individuals affected with [WS](https://en.wikipedia.org/wiki/Williams_syndrome) and [22q11DS](https://en.wikipedia.org/wiki/DiGeorge_syndrome).**
 
